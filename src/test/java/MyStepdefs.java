@@ -52,6 +52,7 @@ public class MyStepdefs {
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
         driver.quit();
+        System.out.println();
     }
 
 
