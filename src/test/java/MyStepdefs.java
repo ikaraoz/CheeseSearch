@@ -52,7 +52,7 @@ public class MyStepdefs {
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
         driver.quit();
-        System.out.println();
+        System.out.println("a new branch is created");
     }
 
 
